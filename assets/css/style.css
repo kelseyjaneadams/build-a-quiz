@@ -54,3 +54,15 @@ body.wrong {
     color: white;
     outline: none;
 }
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+}
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
